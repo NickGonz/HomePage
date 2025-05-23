@@ -1,0 +1,46 @@
+:root {
+  --base: #1e1e2e;
+  --text: #cdd6f4;
+  --blue: #89b4fa;
+  --pink: #f5c2e7;
+  --hover: #b4befe;
+}
+
+body {
+  background: var(--base);
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: var(--pink);
+  font-size: 2rem;
+}
+
+#clock {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--blue);
+}
+
+.links a {
+  margin: 0 1rem;
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--hover);
+}
+
